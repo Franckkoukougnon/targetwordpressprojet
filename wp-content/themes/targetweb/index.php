@@ -84,7 +84,8 @@ if ( have_posts() ) :
 
             <div class="card-body">
                   <h5 class="card-title"><?php the_title(); ?></h5>
-                      <h6 class="card-subtitle mb-2 text-muted"><?php the_date() ?> <?php the_author() ?></h6>
+                      <h6 class="card-subtitle mb-2 text-muted"><?php the_author() ?></h6>
+                       <h6 class="card-subtitle mb-2 text-muted"><?php the_date('Y-m-d') ?> </h6>
                           
 
 
@@ -97,7 +98,7 @@ if ( have_posts() ) :
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted"><?php the_category() ?></small>
                 
               </div>
             </div>
