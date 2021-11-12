@@ -48,7 +48,7 @@
     <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
-    </button>
+    </button> 
   </div>
 
 
@@ -63,6 +63,8 @@
     <div class="container">
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+<!-- Je crée une boucle pour rendre dynamique l'affichage des contenus -->
 
 <?php
 
@@ -83,8 +85,9 @@ if ( have_posts() ) :
            
 
             <div class="card-body">
+              <!-- ajout des fonction native php pour dynamiser le titre , l'auteur du post , et la date  -->
                   <h5 class="card-title"><?php the_title(); ?></h5>
-                      <h6 class="card-subtitle mb-2 text-muted"><?php the_author() ?></h6>
+                      <h6 class="card-subtitle mb-2 text-muted"> Auteur : <?php the_author() ?></h6>
                        <h6 class="card-subtitle mb-2 text-muted"><?php the_date('Y-m-d') ?> </h6>
                           
 
