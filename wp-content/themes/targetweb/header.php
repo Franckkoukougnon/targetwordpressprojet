@@ -3,12 +3,9 @@
   <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Carousel Template · Bootstrap v5.1</title>
 
-    
 
-    <!-- Bootstrap core CSS -->
-<link href="<?php bloginfo('template_directory'); ?>/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
 
     <style>
       .bd-placeholder-img {

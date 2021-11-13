@@ -64,7 +64,7 @@
 </div>
 
 
-    <script src="<?php bloginfo('template_directory'); ?>/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+
       
   </body>
 </html>
