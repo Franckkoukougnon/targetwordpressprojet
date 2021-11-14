@@ -19,7 +19,7 @@ if ( have_posts() ) :
     while ( have_posts() ) : the_post();
 ?>
         <div class="col">
-          <a href="<?php the_permalink() ?>">
+         
             <div class="card shadow-sm">
               
               <div class="card-img-top" >
@@ -46,15 +46,16 @@ if ( have_posts() ) :
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
+                     <a href="<?php the_permalink() ?>">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Voir</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </a>
                   </div>
                   <small class="text-muted"><?php the_category() ?></small>
                   
                 </div>
               </div>
             </div>
-          </a>
+          
         </div>
 <?php
     endwhile;

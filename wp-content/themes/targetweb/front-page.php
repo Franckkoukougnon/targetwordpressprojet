@@ -113,8 +113,8 @@ endif;
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        <h2 class="featurette-heading">Target Web Recette. <span class="text-muted">Plateforme de recette de cuisines.</span></h2>
+        <p class="lead">Venez profiter des recettes de cuisines des jeunes chefs etoilés d'avenir et aussi des recettes ancestrales .</p>
       </div>
       <div class="col-md-5">
 <img src="<?php bloginfo('template_directory') ?>/images/cuisine_japon.jpg" width="500"   alt="Target Web">
