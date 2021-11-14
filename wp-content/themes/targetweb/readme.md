@@ -1,12 +1,11 @@
-Target Web Projet 
+<h1>Target Web Projet </h1> 
 
-Environnement de travail 
-Pour créer l'environnement de travail Wordpress , j'ai utilisé Local ( application Linux)
+<p>Environnement de travail </p>
+<p> Environnement de travail Wordpress : Local ; linux</p> 
+<p> Pour la documentation , je me suis servi de la doc officielle de Wordpress https://developer.wordpress.org/ </p>
 
-Pour la documentation , je me suis servi de la doc officielle de Wordpress https://developer.wordpress.org/
+<p> Pour les templates Html , j'ai utilisé un template https://bootswatch.com/simplex/ </p>
+ 
+<p> Pour le Boostrap j'ai utilisé le Cdn de Bootstrap</p> 
 
-Pour les templates Html , j'ai utilisé un template https://bootswatch.com/simplex/
-
-Pour le Boostrap j'ai utilisé le Cdn de Bootstrap
-
-Pour le formulaire de recette , j'ai utilisé le plugin ACF
+<p> Pour le formulaire de recette , j'ai utilisé le plugin ACF </p>
