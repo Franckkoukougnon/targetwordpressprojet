@@ -40,6 +40,9 @@
     <link href="<?php bloginfo('template_directory'); ?>/css/carousel.css" rel="stylesheet">
 
     <?php wp_head(); ?>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
   </head>
   <body <?php body_class(); ?>>
   <?php wp_body_open(); ?>
@@ -47,7 +50,7 @@
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/">
         <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" height="50"  alt="Target Web">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,16 +62,11 @@
             <a class="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./single.html"> Single</a>
+            <a class="nav-link" href="http://targetweb.local/recette/"> Recettes </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
+        
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+       
       </div>
     </div>
   </nav>

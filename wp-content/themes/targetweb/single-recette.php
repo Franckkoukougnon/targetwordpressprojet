@@ -39,8 +39,9 @@ if ( have_posts() ) :
                     <h1 class="card-title"><?php the_title(); ?></h1>
                         <h6 class="card-subtitle mb-2 text-muted"> Auteur : <?php the_author() ?></h6>
                         <h6 class="card-subtitle mb-2 text-muted"><?php the_date('Y-m-d') ?> </h6>
-                        <h6 class="card-subtitle mb-2 text-muted">Temps de cuisson : <?php the_field('temps_de_cuisson'); ?> mn </h6>
-                <p class="card-subtitle mb-2 text-muted">
+                        <h6 class="card-subtitle mb-2 text-muted"><i class="bi bi-alarm"></i> Temps de cuisson : <?php the_field('temps_de_cuisson'); ?> mn </h6>
+             <div><?php the_terms(get_the_ID(), 'type-plat') ?></div>
+                        <p class="card-subtitle mb-2 text-muted">
                    <h6 class="card-subtitle mb-2 text-muted"> Liste des ingrédients </h6>
                   <?php the_field('liste_des_ingredients'); ?>
                 </p>          
@@ -57,7 +58,7 @@ if ( have_posts() ) :
 <?php
     endwhile;
 else :
-    _e( 'Sorry, no posts matched your criteria.', 'textdomain' );
+    _e( 'Sorry , no posts matched your criteria.', 'textdomain' );
 endif;
 
 ?>

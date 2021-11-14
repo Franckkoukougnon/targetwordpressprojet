@@ -1,8 +1,5 @@
 <?php 
 
-
-
-
 function tgw_setup(){
     add_theme_support( 'title-tag' );
     add_theme_support( 'post-thumbnails' );
@@ -67,20 +64,10 @@ function tgw_type_plat_taxonomy(){
     register_taxonomy( 'type-plat', array( 'recette', 'post' ), $args );
 
 }
-
-
 // Hook de taxonomy
 add_action('init', 'tgw_type_plat_taxonomy');
 
-// function wporg_add_custom_post_types($query) {
-//     if ( is_home() && $query->is_main_query() ) {
-//         $query->set( 'post_type', array( 'post', 'page', 'recette' ) );
-//     }
-//     return $query;
-// }
-// add_action('pre_get_posts', 'wporg_add_custom_post_types');
-
-
+// Mise à jour des rewrite de permaliens
 add_action( 'after_switch_theme', 'flush_rewrite_rules' );
 
 

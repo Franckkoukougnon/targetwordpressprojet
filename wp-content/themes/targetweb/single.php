@@ -51,7 +51,7 @@ if ( have_posts() ) :
 <?php
     endwhile;
 else :
-    _e( 'Sorry, no posts matched your criteria.', 'textdomain' );
+    _e( 'Sorry test , no posts matched your criteria.', 'textdomain' );
 endif;
 
 ?>
